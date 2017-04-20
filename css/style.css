@@ -1,0 +1,704 @@
+body {
+    padding-top: 70px;
+}
+
+h1,
+h3 {
+    color: #DF1B1B;
+}
+
+
+/************** Start navbar**************/
+
+
+/*   Active Link*/
+
+.navbar {
+    min-height: 70px;
+}
+
+
+/*navbar Link*/
+
+#NavbarTabs>li:hover {
+    /*background: #1c9edc -webkit-linear-gradient(310deg, #1c9edc 0%, #1c9edc 10%, #1b96d1 10%, #1b96d1 20%, #198bc2 19%, #198ec6 21%, #198ec6 20%, #198ec6 30%, #1783b7 29%, #1886bb 31%, #1886bb 30%, #1886bb 40%, #167bac 39%, #177eb0 41%, #177eb0 40%, #177eb0 50%, #1573a1 49%, #1576a5 51%, #1576a5 50%, #1576a5 60%, #136b96 59%, #146e9a 61%, #146e9a 60%, #146e9a 70%, #12638b 69%, #12668f 71%, #12668f 70%, #12668f 80%, #105b80 79%, #115f84 81%, #115f84 80%, #115f84 90%, #0f5475 89%, #105779 91%, #105779 90%, #105779 100%)*/
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #BBB;
+    padding: 25px 25px;
+    font-size: 17px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background: #DF1B1B;
+}
+
+
+/*navbar ddl*/
+
+.navbar-nav>li>.dropdown-menu {
+    background-color: #333;
+    color: #bbb;
+    border-top: 3px solid #DF1B1B;
+    width: 200px;
+    left: 0px;
+    right: auto;
+}
+
+.dropdown-menu>li>a {
+    color: #BBB;
+    transition: padding .5s ease;
+    -webkit-transition: padding .5s ease;
+    -moz-transition: padding .5s ease;
+    -o-transition: padding .5s ease;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: #FFF;
+    background-color: #DF1B1B;
+    padding-left: 30px;
+    /*background: #1c9edc -webkit-linear-gradient(310deg, #1c9edc 0%, #1c9edc 10%, #1b96d1 10%, #1b96d1 20%, #198bc2 19%, #198ec6 21%, #198ec6 20%, #198ec6 30%, #1783b7 29%, #1886bb 31%, #1886bb 30%, #1886bb 40%, #167bac 39%, #177eb0 41%, #177eb0 40%, #177eb0 50%, #1573a1 49%, #1576a5 51%, #1576a5 50%, #1576a5 60%, #136b96 59%, #146e9a 61%, #146e9a 60%, #146e9a 70%, #12638b 69%, #12668f 71%, #12668f 70%, #12668f 80%, #105b80 79%, #115f84 81%, #115f84 80%, #115f84 90%, #0f5475 89%, #105779 91%, #105779 90%, #105779 100%)*/
+}
+
+
+/*navbar brand*/
+
+.navbar-inverse .navbar-brand {
+    line-height: 40px;
+    color: #DF1B1B;
+    font-size: 25px;
+    transition: fontsize 1.75s ease;
+    -webkit-transition: font-size 1.75s ease;
+    -moz-transition: font-size 1.75s ease;
+    -o-transition: font-size 1.75s ease;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #FFF;
+    font-size: 27px;
+}
+
+
+/*navbar toggle btn*/
+
+.navbar-toggle {
+    margin-top: 18px;
+}
+
+
+/*********   End navbar *************/
+
+
+/*********   Start Slider ***********/
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+    width: 100%;
+    height: 450px;
+}
+
+.carousel-caption {
+    bottom: 240px;
+}
+
+.carousel-caption .text-danger {
+    color: #DF1B1B;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-indicators .active {
+    height: 22px;
+    width: 22px;
+    background-color: #DF1B1B;
+}
+
+
+/*********   End Slider *************/
+
+
+/*********   Start About ***********/
+
+.section-about {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*********   End About ***********/
+
+
+/*********   Start features ***********/
+
+.section-features {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #EEE;
+}
+
+.section-features .feature p {
+    line-height: 2em;
+}
+
+
+/*********   End features ***********/
+
+
+/*********   Start Testimonilas ***********/
+
+.Testimonilas {
+    padding: 50px 50px;
+}
+
+.Testimonilas_Slider h1 {
+    margin-bottom: 20px;
+}
+
+.Testimonilas .lead {
+    line-height: 2em;
+}
+
+.Testimonilas .carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-color: #DF1B1B;
+}
+
+.Testimonilas .carousel-indicators .active {
+    height: 12px;
+    width: 12px;
+    background-color: #00e;
+}
+
+.Testimonilas .carousel-indicators {
+    bottom: -30px;
+}
+
+.Testimonilas span {
+    color: #DF1B1B;
+    font-weight: bold;
+}
+
+
+/*********   End Testimonilas ***********/
+
+
+/*********   Start Products ***********/
+
+.Prdoucts-section {
+    padding: 50px 0px;
+    background-color: #EEE;
+    /*background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+background-size:110px 200px;
+background-repeat:repeat-x;*/
+    /*
+dotted Blacked
+background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;*/
+}
+
+.Prdoucts-section h1 {
+    margin-bottom: 30px;
+}
+
+.Product {
+    border-radius: 15px;
+    border-color: #ddd;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    transition: all .7s ease;
+}
+
+.Product:hover {
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+
+/*********   End Products ***********/
+
+
+/*********   Strta Our Team ***********/
+
+.team-section {
+    background: url("../images/teambg.jpg") no-repeat center center fixed;
+    min-height: 500px;
+    width: 100%;
+}
+
+.team-container {
+    background: rgba(2, 2, 2, .7);
+    min-height: 500px;
+    /*color: #eee !important;*/
+}
+
+.team-container h1,
+h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.person{
+	margin-bottom: 30px;
+}
+
+.team-section .person h3{
+	color: #777;
+}
+.team-section .person p{
+	color: #777;
+}
+.pesrson a {
+    color: #777 ;
+}
+
+.person .fa {
+    color: #777;
+}
+
+.person img {
+    width: 150px;
+    height: 150px;
+    filter: gray;
+    color: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1)
+}
+.team-section .person:hover img{
+    filter: none;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    
+    
+}
+.team-section .person:hover p{
+	color:#fff !important;
+}
+.team-section .person:hover  h3{
+	color:#fff !important;
+}
+.team-section .person:hover  a{
+	color:#fff !important;
+}
+
+
+/*********   End Our Team ***********/
+
+
+/*********   Start Subscribe ***********/
+
+.Subscribe-section {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #EEE;
+}
+
+.Subscribe-section .form-control {
+    margin-right: -5px;
+}
+
+
+/*********   End Subscribe ***********/
+
+
+/*********   Start Statistics ***********/
+
+.Statistics-section {
+    background: url("../images/statisticsbg.jpg") no-repeat center center fixed;
+    min-height: 350px;
+    width: 100%
+}
+
+.Statistics-section h1 {
+    color: #fff;
+}
+
+.Statistics-container {
+    background-color: rgba(2, 2, 2, .7);
+    width: 100%;
+    min-height: 350px;
+}
+
+.Statistics-container .row {
+    padding-top: 50px;
+}
+
+.Statistics-container .stat {
+    color: #EEE !important;
+    margin-bottom: 20px;
+}
+
+.Statistics-container .stat:hover {
+    color: #FFF !important;
+}
+
+.stat p {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+
+/*********   End Statistics ***********/
+
+
+/*********   Start Customers ***********/
+
+.customers-section {
+    background-color: #EEE;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/*********   End Customers ***********/
+
+
+/*********   Start Contact us ***********/
+
+
+/*footer{
+	margin-top: 30px;
+}*/
+
+.contact-us {
+    position: relative;
+    max-height: 500px !important;
+}
+
+#map {
+    width: 100%;
+    min-height: 500px;
+    z-index: 0;
+}
+
+#ContactBtn {
+    float: right;
+    font-size: 25px;
+    display: inline;
+    z-index: 4;
+    display: none;
+    position: relative;
+    padding-top: 7px;
+    top: 10px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: display 1.3s ease;
+    -moz-transition: display 1.3s ease;
+    transition: display 1.3s ease;
+    /*background:url('../images/close-button.png') no-repeat center center;*/
+}
+
+.contact-arrow {
+    border-style: dashed;
+    border-color: transparent;
+    border-width: 0.20em;
+    display: -moz-inline-box;
+    display: inline-block;
+    /* Use font-size to control the size of the arrow. */
+    font-size: 100px;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 0;
+    /*background:#DF1B1B;*/
+    /* change background color acc to bg color */
+    border-left-width: 0.2em;
+    border-left-style: solid;
+    border-left-color: #ff0000;
+    left: 0.25em;
+}
+
+
+/*.Toggle-Btn{
+	float: left;
+}*/
+
+.contact-container {
+    width: 100%;
+    max-height: 500px;
+    background: rgba(2, 2, 2, .5);
+    z-index: 99;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*top: -519px;*/
+}
+
+.div-arrow {
+    /*background: #DF1B1B;*/
+    color: #DF1B1B;
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: -92px;
+    display: none;
+    -webkit-transition: left 1.3s ease;
+    -moz-transition: left 1.3s ease;
+    transition: left 1.3s ease;
+}
+
+.div-arrow:hover {
+    left: 5px;
+    cursor: pointer;
+}
+
+.contact-container h1 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #FFF;
+}
+
+.contact-container .input-lg {
+    width: 100%;
+    margin-top: 30px;
+    padding: 28px;
+}
+
+.contact-container textarea {
+    height: 235px;
+    resize: none;
+}
+
+.contact-container button {
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/*********   End Contact us ***********/
+
+
+/*********   Start Footer ***********/
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+footer .social a {
+    background-color: #000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    outline: 0;
+    padding: 14px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+footer .social a:hover {
+    color: #DF1B1B;
+}
+
+footer .privacy a {
+    padding-left: 10px;
+}
+
+footer .privacy a:hover {
+    color: #000;
+}
+
+.social .fa-facebook {
+    padding: 5px;
+}
+
+
+/*********   End Footer ***********/
+
+
+/*********   Start Scroll ***********/
+#ScrollToTop{
+	float: right;
+	margin-right:20px;
+	padding: 10px;
+	position: fixed;
+	right: 20px;
+	bottom: 30px;
+	color:#DF1B1B;
+	z-index: 1001;
+	cursor: pointer;
+	display: none;
+}
+/*********   End Scroll ***********/
+
+@media(min-width: 768px) {
+	.contact-container textarea {
+        height: 121px;
+    }
+    .contact-container .input-lg {
+        margin-top: 15px;
+        padding: 21px;
+    }
+    .contact-container button {
+        width: 100%;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    .contact-container h1 {
+        padding-top: 0px;
+    }
+    .subscribe-btn {
+        margin-top: 5px !important;
+    }
+    .privacy {
+        padding-top: 10px;
+    }
+    .social {
+        padding-top: 10px;
+    }
+}
+@media(max-width: 767px) {
+    .contact-container textarea {
+        height: 121px;
+    }
+    .contact-container .input-lg {
+        margin-top: 15px;
+        padding: 21px;
+    }
+    .contact-container button {
+        width: 100%;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    .contact-container h1 {
+        padding-top: 0px;
+    }
+    .subscribe-btn {
+        margin-top: 5px !important;
+    }
+    .privacy {
+        padding-top: 10px;
+    }
+    .social {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-right {
+        margin-right: -58px;
+    }
+    nav .container {
+        padding-left: 0px;
+    }
+    .contact-container textarea {
+        height: 121px;
+    }
+    .contact-container .input-lg {
+        margin-top: 15px;
+        padding: 21px;
+    }
+    .contact-container button {
+        width: 100%;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    .contact-container h1 {
+        padding-top: 0px;
+    }
+    .subscribe-btn {
+        margin-top: 5px !important;
+    }
+    .privacy {
+        padding-top: 20px;
+    }
+    .social {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    nav .container {
+        width: 920px;
+    }
+    .navbar-right {
+        margin-right: -58px;
+    }
+    nav .container {
+        padding-left: 0px;
+    }
+    .contact-container textarea {
+        height: 121px;
+    }
+    .contact-container .input-lg {
+        margin-top: 15px;
+        padding: 21px;
+    }
+    footer p {
+        padding-top: 10px;
+    }
+    .contact-container button {
+        width: 100%;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    .contact-container h1 {
+        padding-top: 0px;
+    }
+    .privacy {
+        padding-top: 10px;
+    }
+    .social {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-container textarea {
+        height: 235px;
+        resize: none;
+    }
+    .contact-container button {
+        width: 25%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .contact-container .input-lg {
+        width: 100%;
+        margin-top: 30px;
+        padding: 28px;
+    }
+    .contact-container h1 {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        color: #FFF;
+    }
+}
+@media(max-width: 991px){
+	#ScrollToTop{
+	float: right;
+	margin-right:0px;
+	padding: 5px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;	
+	}
+
+
+}

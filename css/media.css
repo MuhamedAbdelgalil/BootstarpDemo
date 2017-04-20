@@ -1,0 +1,89 @@
+/*
+	mobile
+ */
+@media(max-width: 767px){
+	.navbar-nav>li>a{
+		padding-top: 0px;
+		padding-bottom: 0px;	
+	}
+	.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a{
+		padding-top: 2px;
+		padding-bottom: 2px;		
+	}
+	.howus{
+		margin-top: 30px;
+		height: 180px;
+		padding:10px;
+		font-size: 16px;
+		border-radius:2%; 
+	}
+	.howus p{
+		max-height: 100%;
+		display: block;
+		overflow: hidden;
+		font-size: 17px;
+	}
+	.footer .keepin{
+		padding-top: 0px;
+	}
+	.our-client .carousel-indicators li{
+		width: 50px; 
+		height: 50px;
+	}
+
+}
+/*
+small screen
+ */
+@media(min-width: 768px) and (max-width: 991px){
+	.howus{
+		margin-top: 30px;
+		height: 250px;
+		padding:10px;
+		font-size: 16px;
+	}
+	.howus p{
+		max-height: 100%;
+		display: block;
+		overflow: hidden;
+		font-size: 17px;
+	}
+	.footer .keepin{
+		padding-top: 0px;
+	}
+	.footer{
+		min-height: 250px;
+	}
+}
+/*
+medium screen
+ */
+@media(min-width: 992px) and (max-width: 1199px){
+
+	.howus{
+		margin-top: 60px;
+		height: 180px;
+		padding:10px;
+		font-size: 16px;
+		border-radius:2%; 
+	}
+	.howus p{
+		max-height: 100%;
+		display: block;
+		overflow: hidden;
+		font-size: 17px;
+	}
+	.footer .keepin{
+		padding-top: 0px;
+	}
+	.footer{
+		min-height: 240px;
+	}
+
+}
+/*
+large screen
+ */
+@media(min-width: 1200px){
+
+}
